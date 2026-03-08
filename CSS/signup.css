@@ -328,6 +328,10 @@ img {
    font-weight: 600;
    text-decoration: underline;
 }
+.math a:hover{
+   background-color: #edf3fe;
+   padding: 7px 4px;
+}
 
 
 @media (max-width:977px) {

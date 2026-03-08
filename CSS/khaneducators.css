@@ -250,7 +250,10 @@ image svg{
     opacity: 1;
     visibility: visible;
 }
-
+.math a:hover{
+   background-color: #edf3fe;
+   padding: 7px 4px;
+}
 
 @media (max-width:977px) {
    .image-1 img {
@@ -291,6 +294,10 @@ image svg{
 
 .bodyy-2{
     display: inline-flex;
+    align-items: center;
+}
+.bodyy-2 span{
+   font-size: 1.7rem;
 }
 .bodyy{
     display: flex;
@@ -496,6 +503,9 @@ image svg{
 }
 
 @media(max-width:1027px){
+   .body-1{
+      border-right: none;
+   }
    .bodyy-2{
       display: none;
    }

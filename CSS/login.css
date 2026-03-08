@@ -267,7 +267,10 @@ img {
     opacity: 1;
     visibility: visible;
 }
-
+.math a:hover{
+   background-color: #edf3fe;
+   padding: 7px 4px;
+}
 
 
 .box-1 img{
